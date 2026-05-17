@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="title"
+      content="Eliud Muwowo | Front-End Developer & Data Scientist"
+    />
+    <meta
+      name="description"
+      content="Portfolio of Eliud Muwowo — a front-end developer and data scientist building responsive web interfaces and data dashboards. Available for freelance work."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eliud-muwowo.com/" />
+    <meta
+      property="og:title"
+      content="Eliud Muwowo | Front-End Developer & Data Scientist"
+    />
+    <meta
+      property="og:description"
+      content="Front-end developer & data scientist creating user-centered interfaces and actionable data dashboards."
+    />
+    <meta property="og:image" content="https://eliud-muwowo.com/img/hero.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://eliud-muwowo.com/" />
+    <meta
+      property="twitter:title"
+      content="Eliud Muwowo | Front-End Developer & Data Scientist"
+    />
+    <meta
+      property="twitter:description"
+      content="Front-end developer & data scientist building clean, responsive web apps and data dashboards."
+    />
+    <meta
+      property="twitter:image"
+      content="https://eliud-muwowo.com/img/hero.jpg"
+    />
+
+    <link rel="icon" href="favicon/mstile-70x70.svg" />
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-180x180.svg" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Zetta:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansita+Swashed:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Eliud Muwowo",
+        "url": "https://eliud-muwowo.com/project.html"
+      }
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Projects | Eliud Muwowo – Web & Data Science Work</title>
+  </head>
+  <body>
+    <header class="header project-container">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="img/LOGO-ELIUDMUWOWO.svg"
+            alt="logo image of Eliud's portfolio"
+        /></a>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav--list">
+          <li><a href="index.html" class="main-nav--link">Home</a></li>
+          <li><a href="about.html" class="main-nav--link">About</a></li>
+          <li><a href="project.html" class="main-nav--link">Projects</a></li>
+          <li><a href="contact.html" class="main-nav--link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="socials">
+        <a
+          href="https://www.linkedin.com/in/eliud-muwowo-154180bb/"
+          target="_blank"
+          ><ion-icon name="logo-linkedin" class="social-icons"></ion-icon
+        ></a>
+        <a href="https://github.com/mu-eli" target="_blank"
+          ><ion-icon name="logo-github" class="social-icons"></ion-icon
+        ></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-project project-container">
+        <div class="">
+          <h1 class="project-heading--main">Where Design Meets Craft.</h1>
+          <p class="project-heading--sub">
+            A curated collection of projects built at the intersection of
+            thoughtful design and clean code — from responsive web experiences
+            to interactive data dashboards.
+          </p>
+        </div>
+
+        <div class="projects-skills">
+          <p class="project-count">
+            <!-- <span class="project-count--number">15</span> -->
+            <span id="project-count" class="project-count--number"></span>
+            <span class="project-count--name">projects</span>
+          </p>
+          <p class="project-skills">
+            <!-- <span class="project-count--number">5+</span> -->
+            <span id="discipline-count" class="project-count--number"></span>
+            <span class="project-count--name">disciplines</span>
+          </p>
+        </div>
+
+        <div class="projects-layout--container">
+          <div class="tabs border-lines">
+            <div class="tab-alignment">
+              <button class="tab active" data-filter="all">all work</button>
+              <button class="tab" data-filter="responsive web">
+                responsive web
+              </button>
+              <button class="tab" data-filter="interactive dashboard">
+                data & analytics
+              </button>
+            </div>
+          </div>
+
+          <div id="projects-grid" class="projects-grid"></div>
+        </div>
+
+        <div class="footer">
+          <p>
+            &copy;<span class="copyright-year">2026</span> Eliud. All rights
+            reserved.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

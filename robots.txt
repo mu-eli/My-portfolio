@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://eliud-muwowo.com/sitemap.xml

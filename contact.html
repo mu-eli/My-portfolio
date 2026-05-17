@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="title"
+      content="Eliud Muwowo | Front-End Developer & Data Scientist"
+    />
+    <meta
+      name="description"
+      content="Portfolio of Eliud Muwowo — a front-end developer and data scientist building responsive web interfaces and data dashboards. Available for freelance work."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eliud-muwowo.com/" />
+    <meta
+      property="og:title"
+      content="Eliud Muwowo | Front-End Developer & Data Scientist"
+    />
+    <meta
+      property="og:description"
+      content="Front-end developer & data scientist creating user-centered interfaces and actionable data dashboards."
+    />
+    <meta property="og:image" content="https://eliud-muwowo.com/img/hero.jpg" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://eliud-muwowo.com/" />
+    <meta
+      property="twitter:title"
+      content="Eliud Muwowo | Front-End Developer & Data Scientist"
+    />
+    <meta
+      property="twitter:description"
+      content="Front-end developer & data scientist building clean, responsive web apps and data dashboards."
+    />
+    <meta
+      property="twitter:image"
+      content="https://eliud-muwowo.com/img/hero.jpg"
+    />
+
+    <link rel="icon" href="favicon/mstile-70x70.svg" />
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-180x180.svg" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Zetta:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansita+Swashed:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Eliud Muwowo",
+        "url": "https://eliud-muwowo.com/contact.html"
+      }
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <title>
+      Contact Eliud Muwowo | Hire a Front-End Developer & Data Scientist
+    </title>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="img/LOGO-ELIUDMUWOWO.svg"
+            alt="logo image of Eliud's portfolio"
+        /></a>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav--list">
+          <li><a href="index.html" class="main-nav--link">Home</a></li>
+          <li><a href="about.html" class="main-nav--link">About</a></li>
+          <li><a href="project.html" class="main-nav--link">Projects</a></li>
+          <li><a href="contact.html" class="main-nav--link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="socials">
+        <a
+          href="https://www.linkedin.com/in/eliud-muwowo-154180bb/"
+          target="_blank"
+          ><ion-icon name="logo-linkedin" class="social-icons"></ion-icon
+        ></a>
+        <a href="https://github.com/mu-eli" target="_blank"
+          ><ion-icon name="logo-github" class="social-icons"></ion-icon
+        ></a>
+      </div>
+    </header>
+
+    <section class="contact-section container">
+      <div class="contact-info-container">
+        <div class="ring-img">
+          <img
+            src="img/hero.jpg"
+            alt="Eliud Muwowo, front-end developer and data scientist"
+            class="contact-img"
+          />
+        </div>
+
+        <div class="arrow">
+          <ion-icon
+            name="arrow-forward-outline"
+            class="contact-arrow"
+          ></ion-icon>
+        </div>
+
+        <p>
+          <a
+            href="mailto:eliudmuwowo@gmail.com"
+            aria-label="Email Eliud Muwowo"
+            class="email-text"
+            >eliudmuwowo@gmail.com</a
+          >
+        </p>
+        <p class="contact-text">follow me</p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/eliud-muwowo-154180bb/"
+            target="_blank"
+            class="social-texts"
+            >linkedin</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://github.com/mu-eli"
+            target="_blank"
+            class="social-texts"
+            >github</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://codepen.io/Eli-Mu"
+            target="_blank"
+            class="social-texts"
+            >codepen</a
+          >
+        </p>
+      </div>
+
+      <div class="contact-form">
+        <p class="form-heading">let's work together.</p>
+
+        <form id="contactForm" action="mail.php" method="POST">
+          <div>
+            <label for="full-name" class="form-label"
+              >your name<span class="required">*</span></label
+            >
+            <input
+              id="full-name"
+              placeholder="Eliud Muwowo"
+              name="name"
+              type="text"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="email" class="form-label"
+              >your email<span class="required">*</span></label
+            >
+            <input
+              id="email"
+              placeholder="eliudmuwowo@example.com"
+              name="email"
+              type="email"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="service" class="form-label"
+              >what service are you looking for<span class="required"
+                >*</span
+              ></label
+            >
+            <input
+              id="service"
+              placeholder="Web development, front-end coding"
+              name="service"
+              type="text"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="message" class="form-label"
+              >your message<span class="required">*</span></label
+            >
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Hello, I need help with ..."
+              required
+            ></textarea>
+          </div>
+          <div class="send-btn">
+            <button type="submit" class="btn btn-contact">send</button>
+          </div>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+      </div>
+
+      <div class="footer">
+        <p>
+          &copy;<span class="copyright-year">2026</span> Eliud. All rights
+          reserved.
+        </p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
